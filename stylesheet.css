@@ -161,8 +161,6 @@ h1{
   font-size: 2.3em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   text-align:center;
   margin: 80px auto;
 }
@@ -188,7 +186,6 @@ font-size: 14px;
 color: rgba(255, 255, 255, 1.0);
 }
 .entertaiment_acount{
-  display: inline-block;
   height:48px;
   width: 200px;
   background-color: #0068bf;
@@ -317,20 +314,19 @@ color: rgba(255, 255, 255, 1.0);
   width: 100%;
   height: 160px;
   background-color: rgba(238,238,238,1.0);
-  padding:54px 100px;
+  padding:54px 15px;
   margin: 0 auto;
 }
 .psn_content_center{
   height: 51px;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 .psn_content_center p{
   font-size:14px;
   height: 21px;
-  width: 210px;
+  width: 25%;
   float: left;
-  margin:20px 15px;
   color: #00a2ff;
   padding:0 15px;
 }
@@ -340,12 +336,12 @@ color: rgba(255, 255, 255, 1.0);
 .psn_support{
   width: 100%;
   height: 249px;
-  padding:14px 100px;
+  padding:14px 20%;
   background-color: rgba(0,55,145,1.0);
 }
 .support_center{
   height: 221px;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 .support_headline{
@@ -366,33 +362,33 @@ color: rgba(255, 255, 255, 1.0);
 }
 .support_product{
   height: 210px;
-  width: 200px;
+  width: 25%;
   float: left;
-  margin: 20px 20px;
+  margin: 20px 0;
   color: white;
   padding:0 15px;
 }
 .support_service{
   height: 210px;
-  width: 200px;
+  width: 25%;
   float: left;
-  margin: 20px 20px;
+  margin: 20px 0;
   color: white;
   padding:0 15px;
 }
 .support_news{
   height: 210px;
-  width: 200px;
+  width: 25%;
   float: left;
-  margin: 20px 20px;
+  margin: 20px 0;
   color: white;
   padding:0 15px;
 }
 .support_support{
   height: 210px;
-  width: 200px;
+  width: 25%;
+  margin: 20px 0;
   float: left;
-  margin: 20px 20px;
   color: white;
   padding:0 15px;
 }
